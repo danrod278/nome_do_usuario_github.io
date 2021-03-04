@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icones/transferir.jfif" type="image/x-icon">
+    <title>projetos diferentes</title>
+    <style>
+        link
+        body {
+            background-color: #d9d9d9;
+        }
+      .oi{
+          font-size: 25px;
+          color: #000000a2;
+          margin-left: 50px;
+      }
+      #fon{
+          font-size: 40px;
+          color:black;
+      }
+      .b{
+          color: rgba(0, 0, 0, 0.788);
+      }
+    .h1{
+         margin-left: 20px;
+    }
+    .pers{
+        margin-left: 27px;
+        font-size: 15px;
+    }
+    .img{
+        margin-left: 30px;
+        color: rgba(255, 0, 0, 0.76);
+    }
+    </style>
+</head>
+<body>
+    <h1 class="h1">Negrito  /  Destaque</h1><br> <!-- negrito-->
+    <p class="oi">Nesse texto <strong class="b">temos uma parte em negrito</strong> usando a tag <strong>&lt;/b&gt;</strong></p>
+    <p class="oi">Mas infelismente a tag <strong>&lt;/b&gt;</strong> nao e semantica</p>
+    <p class="oi">A tag correta a ser usada e a tag <strong class="b">&lt;/strong&gt;</strong><br> Ela sim e semantica</p>
+    <br>
+    <h1 class="h1">
+        <em>Usnado italico</em> <!-- italico -->
+    </h1>
+    <p class="pers"><em>para ser usado o italico e nescesario usar a tag <strong>&lt;/i&gt;</strong></em></p>
+    <p class="pers">
+        Mas como de costume a tag <strong>&lt;/i&gt;</strong> esta DESATUALIZADA
+    </p>
+    <p class="oi">
+        a tag correta a se utilizar e <strong>&lt;/em&gt;</strong>
+    </p><br>
+
+    <h4 class="h1">
+        TAMBEM TEMOS A TAG &lt;/mark&gt; <!-- tag mark-->
+    </h4>
+    <p class="oi"><mark>
+        a tag mark serve para fazer isso
+    </mark>
+    </p>
+    <p class="oi">Mas ela so funciona envelopada. Pois ainda não e reconhecida pelo vs-code</p>
+    <p>
+        Tambem pode ser mudada a cor do marca texto, usando esse codigo
+    </p>
+    <img src="imagencodigo.png" class="img" alt="codigo css">
+    <P class="img">IMAGEM CODIGO  CSS</P>
+    <img src="imagemcodigo2.png" class="img" alt="codigo html">
+    <p class="img">IMAGEM CODIGO HTML</p>
+
+    <h1 class="h1">Usando a tag &lt;/small&gt;</h1> <!-- usando a tag small-->
+    <p class="oi">Para ser usada a tag smal</p>
+    <p class="oi">Voce deve usa um codigo smelhante a este</p>
+    <img src="small.png" class="img" alt="codigo small"><br>
+    <small class ="pers">Essa tag serve para quando voce quer fazer aquelas letras bem miudas .Tipo esta</small>
+    </body>
+</html>
